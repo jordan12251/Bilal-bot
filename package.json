@@ -1,0 +1,28 @@
+{
+  "name": "bilal-md-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp Bot with Web Interface for Heroku",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "heroku"
+  ],
+  "author": "Bilal",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "express": "^4.21.2",
+    "pino": "^9.5.0"
+  }
+}
