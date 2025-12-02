@@ -53,7 +53,7 @@ RUN apt-get update && apt-get install -y \
 COPY package*.json ./
 
 # 5. Installer les dépendances npm
-RUN npm ci --only=production
+RUN npm install --omit=dev
 
 # 6. Copier le reste du code source
 COPY . .
